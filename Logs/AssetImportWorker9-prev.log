@@ -1,0 +1,251 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.35f1 (157b46ce122a) revision 1407814'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32716 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.35f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker9
+-projectPath
+C:/Users/Shinobu/Downloads/Compressed/Mega-Cat-Dev-Screening/Mega-Cat-Dev-Screening
+-logFile
+Logs/AssetImportWorker9.log
+-srvPort
+55947
+Successfully changed project path to: C:/Users/Shinobu/Downloads/Compressed/Mega-Cat-Dev-Screening/Mega-Cat-Dev-Screening
+C:/Users/Shinobu/Downloads/Compressed/Mega-Cat-Dev-Screening/Mega-Cat-Dev-Screening
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [1536] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 3268297686 [EditorId] 3268297686 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-H8SGABQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [1536] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 3268297686 [EditorId] 3268297686 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-H8SGABQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 94.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.35f1 (157b46ce122a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.35f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Shinobu/Downloads/Compressed/Mega-Cat-Dev-Screening/Mega-Cat-Dev-Screening/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Vendor:   NVIDIA
+    VRAM:     5966 MB
+    Driver:   31.0.15.5212
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.35f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.35f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.35f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.35f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008066 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 94.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.856 seconds
+Domain Reload Profiling:
+	ReloadAssembly (857ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (588ms)
+			LoadAssemblies (130ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (133ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (363ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (95ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (189ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008838 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 95.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.043 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2044ms)
+		BeginReloadAssembly (174ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1710ms)
+			LoadAssemblies (144ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (319ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (1131ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (96ms)
+				BeforeProcessingInitializeOnLoad (145ms)
+				ProcessInitializeOnLoadAttributes (743ms)
+				ProcessInitializeOnLoadMethodAttributes (127ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4592 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (0.7 MB). Loaded Objects now: 5049.
+Memory consumption went from 203.4 MB to 202.7 MB.
+Total: 4.497200 ms (FindLiveObjects: 0.418900 ms CreateObjectMapping: 0.134000 ms MarkObjects: 3.586100 ms  DeleteObjects: 0.357200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 173333.084194 seconds.
+  path: Assets/Sprites/Gems/earthsheen_6colors_256_GrafX2.png
+  artifactKey: Guid(137501d1b513f884b840b03f0bdef9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Gems/earthsheen_6colors_256_GrafX2.png using Guid(137501d1b513f884b840b03f0bdef9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd91ef3daa18c6e221ec85405d3346ebc') in 0.211457 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.134698 seconds.
+  path: Assets/Sprites/Player Character/Sheep-Sprite-Sheet.png
+  artifactKey: Guid(ea4d97d44b5d8394a9e77dba1faf6e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Player Character/Sheep-Sprite-Sheet.png using Guid(ea4d97d44b5d8394a9e77dba1faf6e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8226956cbd6605ba3fbfe279b831ffed') in 0.046782 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.603963 seconds.
+  path: Assets/Sprites/Player Character/Player Character/cannon_southeast_16_GrafX2.png
+  artifactKey: Guid(e75df72e82efe2849bb55f948a7ecd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Player Character/Player Character/cannon_southeast_16_GrafX2.png using Guid(e75df72e82efe2849bb55f948a7ecd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ba27115fe4a65c6a3579c066bbdef1') in 0.051979 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Player Character/Player Character/P1_prototype_16_GrafX2.png
+  artifactKey: Guid(771962561ccc3df41a7f2e5af9fee3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Player Character/Player Character/P1_prototype_16_GrafX2.png using Guid(771962561ccc3df41a7f2e5af9fee3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b2e18391369f4d0a33181349b65d70') in 0.041111 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites/Player Character/Player Character/P1_levers_16_GrafX2.png
+  artifactKey: Guid(a7ec19d971001074cbdb6906a880f06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Player Character/Player Character/P1_levers_16_GrafX2.png using Guid(a7ec19d971001074cbdb6906a880f06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b996967d4878ffd6e64dfd73b69eabae') in 0.033301 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 153.336657 seconds.
+  path: Assets/Sprites/Player Character/Tactician Sprite Sheet/cannon_northwest_16_GrafX2.png
+  artifactKey: Guid(b016cce36ce37ef429fc89cf0ddb3098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Player Character/Tactician Sprite Sheet/cannon_northwest_16_GrafX2.png using Guid(b016cce36ce37ef429fc89cf0ddb3098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb8f8ec9dbf05475d27a7a99e9b5c4c') in 0.035544 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Player Character/Tactician Sprite Sheet/cannon_southeast_16_GrafX2.png
+  artifactKey: Guid(776ca49d07672714e884b041e3c4dc06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Player Character/Tactician Sprite Sheet/cannon_southeast_16_GrafX2.png using Guid(776ca49d07672714e884b041e3c4dc06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19114d6ad50bcc448c2be7cfefdb49b2') in 0.036312 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Player Character/Tactician Sprite Sheet/Dorven-Characters-Animation-Tactitian-2.gif
+  artifactKey: Guid(cb5abd42dcc50434481bc62ac99a7ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Player Character/Tactician Sprite Sheet/Dorven-Characters-Animation-Tactitian-2.gif using Guid(cb5abd42dcc50434481bc62ac99a7ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9fffd6582e0f24d8a7952fb216ef899') in 0.033832 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Player Character/Tactician Sprite Sheet/machine.png
+  artifactKey: Guid(73526f4c57da63946aaf5c68d7cd2b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Player Character/Tactician Sprite Sheet/machine.png using Guid(73526f4c57da63946aaf5c68d7cd2b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43904b565dff6658989cec475205bd19') in 0.031780 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Player Character/Tactician Sprite Sheet/Tactician SS.png
+  artifactKey: Guid(0b4e2c56add685a40999bd3b25bdc110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Player Character/Tactician Sprite Sheet/Tactician SS.png using Guid(0b4e2c56add685a40999bd3b25bdc110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc3153f14f61efc2a5cf55f7c6dfc4e') in 0.036687 seconds 
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

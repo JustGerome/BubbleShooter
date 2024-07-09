@@ -1,0 +1,283 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.35f1 (157b46ce122a) revision 1407814'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32716 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.35f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/Shinobu/Downloads/Compressed/Mega-Cat-Dev-Screening/Mega-Cat-Dev-Screening
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+55947
+Successfully changed project path to: C:/Users/Shinobu/Downloads/Compressed/Mega-Cat-Dev-Screening/Mega-Cat-Dev-Screening
+C:/Users/Shinobu/Downloads/Compressed/Mega-Cat-Dev-Screening/Mega-Cat-Dev-Screening
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16348] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 3706184960 [EditorId] 3706184960 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-H8SGABQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [16348] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 3706184960 [EditorId] 3706184960 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-H8SGABQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 100.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.35f1 (157b46ce122a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.35f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Shinobu/Downloads/Compressed/Mega-Cat-Dev-Screening/Mega-Cat-Dev-Screening/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Vendor:   NVIDIA
+    VRAM:     5966 MB
+    Driver:   31.0.15.5212
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.35f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.35f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.35f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56080
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.35f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007965 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 89.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.843 seconds
+Domain Reload Profiling:
+	ReloadAssembly (844ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (570ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (135ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (344ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (90ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010902 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 102.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.062 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2063ms)
+		BeginReloadAssembly (177ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1739ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (325ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (1148ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (102ms)
+				BeforeProcessingInitializeOnLoad (157ms)
+				ProcessInitializeOnLoadAttributes (748ms)
+				ProcessInitializeOnLoadMethodAttributes (122ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4592 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (0.7 MB). Loaded Objects now: 5049.
+Memory consumption went from 203.3 MB to 202.6 MB.
+Total: 5.107000 ms (FindLiveObjects: 0.443600 ms CreateObjectMapping: 0.175200 ms MarkObjects: 4.070900 ms  DeleteObjects: 0.416100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 173294.173537 seconds.
+  path: Assets/Sprites/Background/Background/BG_Ice Cave Assets/Ice Cave New.png
+  artifactKey: Guid(c0c2674bf0559244aa6e4726059e906c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Background/Background/BG_Ice Cave Assets/Ice Cave New.png using Guid(c0c2674bf0559244aa6e4726059e906c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53ffd92541f79f4b23408f62d4a7a83') in 0.206067 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/Background/Background/BG_Ice Cave Assets/Ice-Cave-New-TS.png
+  artifactKey: Guid(5135561d2a62a854b9896a14dfef5571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Background/Background/BG_Ice Cave Assets/Ice-Cave-New-TS.png using Guid(5135561d2a62a854b9896a14dfef5571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180dd69ffa2a83d78b7453141016ea3c') in 0.049953 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 19.960659 seconds.
+  path: Assets/Sprites/Background/Background/BG_Magma Forge Assets/bg-tiles_spritesheet.png
+  artifactKey: Guid(3232a5428cac6a34da7f4bed69ddbbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Background/Background/BG_Magma Forge Assets/bg-tiles_spritesheet.png using Guid(3232a5428cac6a34da7f4bed69ddbbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42dc585d1ab05c4d2c014a8ba5ab30e9') in 0.047850 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.419376 seconds.
+  path: Assets/Sprites/Background/Background/BG_Magma Forge Assets/Samples and Screenshots
+  artifactKey: Guid(bb050fef17278fc4ab76e44b432e32a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Background/Background/BG_Magma Forge Assets/Samples and Screenshots using Guid(bb050fef17278fc4ab76e44b432e32a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b8b46071d9281f3563b3042f41587a4') in 0.009438 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.046551 seconds.
+  path: Assets/Sprites/Background/Background/BG_Magma Forge Assets/Samples and Screenshots/cave-bg_sample.png
+  artifactKey: Guid(35d77cfa4184fd34b94c15becff902c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Background/Background/BG_Magma Forge Assets/Samples and Screenshots/cave-bg_sample.png using Guid(35d77cfa4184fd34b94c15becff902c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14428d56487be8dd6215a8b13ff399e') in 0.074104 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Background/Background/BG_Magma Forge Assets/Samples and Screenshots/rock-formations.png
+  artifactKey: Guid(e4c246f51ea50554c9b90ffae078a832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Background/Background/BG_Magma Forge Assets/Samples and Screenshots/rock-formations.png using Guid(e4c246f51ea50554c9b90ffae078a832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26273085e83b6dc780accba768ace353') in 0.145872 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Background/Background/BG_Magma Forge Assets/Samples and Screenshots/rock-formation_sample.png
+  artifactKey: Guid(b0bbf32d90ac9094e95bec62b28a2470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Background/Background/BG_Magma Forge Assets/Samples and Screenshots/rock-formation_sample.png using Guid(b0bbf32d90ac9094e95bec62b28a2470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c29fda21c52ec597ee7660ecf1cfc3') in 0.047081 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Background/Background/BG_Magma Forge Assets/Samples and Screenshots/rock-formation2_sample.png
+  artifactKey: Guid(2e4b9c70e8ae84e42b69926d43a07a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Background/Background/BG_Magma Forge Assets/Samples and Screenshots/rock-formation2_sample.png using Guid(2e4b9c70e8ae84e42b69926d43a07a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67cb98b3958a7b244ffc434b398a3791') in 0.162900 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Background/Background/BG_Magma Forge Assets/Samples and Screenshots/Dorven_bg-Magma-Forge_bgwithpipes.png
+  artifactKey: Guid(a3dd7f83f219ba145ac479b4ac77ff37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Background/Background/BG_Magma Forge Assets/Samples and Screenshots/Dorven_bg-Magma-Forge_bgwithpipes.png using Guid(a3dd7f83f219ba145ac479b4ac77ff37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04eed5a2c92a8ac2f3f7fb29fc603ebf') in 0.074926 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 16.586438 seconds.
+  path: Assets/Sprites/Gems/collectsparks_6colors_256_GrafX2.png
+  artifactKey: Guid(d9355f562c39187449af925b1c16292e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Gems/collectsparks_6colors_256_GrafX2.png using Guid(d9355f562c39187449af925b1c16292e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d82a4cef57875845e5dfb83865db2c0') in 0.036263 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Gems/rocksheen_6colors_256_GrafX2.png
+  artifactKey: Guid(2300294ab571f74479d384ba5a2ff1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Gems/rocksheen_6colors_256_GrafX2.png using Guid(2300294ab571f74479d384ba5a2ff1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602b465535918a0f124a90b275147986') in 0.042245 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.253857 seconds.
+  path: Assets/Sprites/Player Character/Fairy-Sprite-Sheet.png
+  artifactKey: Guid(5f05ef2cdd3614349bb7f7319049b3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Player Character/Fairy-Sprite-Sheet.png using Guid(5f05ef2cdd3614349bb7f7319049b3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4cc77ff7926a6ac3b3f1f84c73005d2') in 0.046630 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.604552 seconds.
+  path: Assets/Sprites/Player Character/Player Character/cannon_northwest_16_GrafX2.png
+  artifactKey: Guid(e76b467e898b1034f8efa1471d50ffb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Player Character/Player Character/cannon_northwest_16_GrafX2.png using Guid(e76b467e898b1034f8efa1471d50ffb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9969cf93140acd47da9940fc511074c2') in 0.070502 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Player Character/Player Character/machine_pieces_strip_16_Grafx2.png
+  artifactKey: Guid(f94f4027bc18a194bb5fbf255ca4c2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Player Character/Player Character/machine_pieces_strip_16_Grafx2.png using Guid(f94f4027bc18a194bb5fbf255ca4c2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c059cf084cce8bd8189c37ba7d4ca7') in 0.060887 seconds 
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

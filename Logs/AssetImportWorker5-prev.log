@@ -1,0 +1,299 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.35f1 (157b46ce122a) revision 1407814'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32716 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.35f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/Shinobu/Downloads/Compressed/Mega-Cat-Dev-Screening/Mega-Cat-Dev-Screening
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+55947
+Successfully changed project path to: C:/Users/Shinobu/Downloads/Compressed/Mega-Cat-Dev-Screening/Mega-Cat-Dev-Screening
+C:/Users/Shinobu/Downloads/Compressed/Mega-Cat-Dev-Screening/Mega-Cat-Dev-Screening
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25992] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 3044328929 [EditorId] 3044328929 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-H8SGABQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [25992] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 3044328929 [EditorId] 3044328929 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-H8SGABQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 102.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.35f1 (157b46ce122a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.35f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Shinobu/Downloads/Compressed/Mega-Cat-Dev-Screening/Mega-Cat-Dev-Screening/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Vendor:   NVIDIA
+    VRAM:     5966 MB
+    Driver:   31.0.15.5212
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.35f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.35f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.35f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56164
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.35f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007929 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 103.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.906 seconds
+Domain Reload Profiling:
+	ReloadAssembly (906ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (634ms)
+			LoadAssemblies (130ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (140ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (401ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (103ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (108ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008953 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 95.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.057 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2058ms)
+		BeginReloadAssembly (184ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1722ms)
+			LoadAssemblies (149ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (332ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (1125ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (96ms)
+				BeforeProcessingInitializeOnLoad (147ms)
+				ProcessInitializeOnLoadAttributes (739ms)
+				ProcessInitializeOnLoadMethodAttributes (124ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4592 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (0.7 MB). Loaded Objects now: 5048.
+Memory consumption went from 203.4 MB to 202.6 MB.
+Total: 7.670900 ms (FindLiveObjects: 0.596100 ms CreateObjectMapping: 0.430700 ms MarkObjects: 5.941100 ms  DeleteObjects: 0.701200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 173171.145282 seconds.
+  path: Assets/Sprites/Background/Background/BG-Dragons Den Assets/Dragons Den New.png
+  artifactKey: Guid(f7504b8b9bdf0dc4b8822e945c44dce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Background/Background/BG-Dragons Den Assets/Dragons Den New.png using Guid(f7504b8b9bdf0dc4b8822e945c44dce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ca315cf53e5ceae2153d5d1b48a0f4') in 0.204484 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprites/Background/Background/BG-Dragons Den Assets/Dragons Den New2.png
+  artifactKey: Guid(5d5a11ddd77a1f243be0425188f40415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Background/Background/BG-Dragons Den Assets/Dragons Den New2.png using Guid(5d5a11ddd77a1f243be0425188f40415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e04a19c886b4001af1649c1c5f49875') in 0.043292 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 19.719477 seconds.
+  path: Assets/Sprites/Background/Background/BG_Abandoned Kingdom Assets/bg-tiles_spritesheet.png
+  artifactKey: Guid(8602a7b774b6d7a47b3fe04ed8153cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Background/Background/BG_Abandoned Kingdom Assets/bg-tiles_spritesheet.png using Guid(8602a7b774b6d7a47b3fe04ed8153cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd64929d3c7bb0e28539b8b2e44eea7d3') in 0.041462 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Background/Background/BG_Abandoned Kingdom Assets/statueand-ceiling.png
+  artifactKey: Guid(036d6710550df8b4fb0d4450e2c96288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Background/Background/BG_Abandoned Kingdom Assets/statueand-ceiling.png using Guid(036d6710550df8b4fb0d4450e2c96288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b82c35050c0bc4327f366b43fa13e20') in 0.035464 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.453082 seconds.
+  path: Assets/Sprites/Background/Background/BG_Abandoned Kingdom Assets/Samples, Guides and Screenshots/assembly_statue.png
+  artifactKey: Guid(a561e6a6ce32cc74894d75e98b50aca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Background/Background/BG_Abandoned Kingdom Assets/Samples, Guides and Screenshots/assembly_statue.png using Guid(a561e6a6ce32cc74894d75e98b50aca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9943231f31b6e8b5c6257ad4b80e814b') in 0.092263 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Background/Background/BG_Abandoned Kingdom Assets/Samples, Guides and Screenshots/assembly_walls.png
+  artifactKey: Guid(46e311ab30493d448adfad856dd47175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Background/Background/BG_Abandoned Kingdom Assets/Samples, Guides and Screenshots/assembly_walls.png using Guid(46e311ab30493d448adfad856dd47175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e70f4956fa31ff18ba48bbfc9020b49') in 0.034242 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Background/Background/BG_Abandoned Kingdom Assets/Samples, Guides and Screenshots/Dorven_bg Kingdom_updated.png
+  artifactKey: Guid(7fcfddf50ff370a43878bc94b510d8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Background/Background/BG_Abandoned Kingdom Assets/Samples, Guides and Screenshots/Dorven_bg Kingdom_updated.png using Guid(7fcfddf50ff370a43878bc94b510d8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b576295f7849bbe676153159b8ef1407') in 0.095602 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Background/Background/BG_Abandoned Kingdom Assets/Samples, Guides and Screenshots/assembly_windows.png
+  artifactKey: Guid(e5d9150aaaa9e9d468d5cff13b26574b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Background/Background/BG_Abandoned Kingdom Assets/Samples, Guides and Screenshots/assembly_windows.png using Guid(e5d9150aaaa9e9d468d5cff13b26574b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '319c89da2a6657077d3099edc7e716dd') in 0.037207 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/Background/Background/BG_Abandoned Kingdom Assets/Samples, Guides and Screenshots/Dorven_bg Kingdom_intersection sample.png
+  artifactKey: Guid(0e682c66b50d7f7488d19a54e1c84655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Background/Background/BG_Abandoned Kingdom Assets/Samples, Guides and Screenshots/Dorven_bg Kingdom_intersection sample.png using Guid(0e682c66b50d7f7488d19a54e1c84655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb8a1343aea6642968889f0d57120e4') in 0.040141 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Background/Background/BG_Abandoned Kingdom Assets/Samples, Guides and Screenshots/orientation_bg.png
+  artifactKey: Guid(c036ace63a17902439c23630949095a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Background/Background/BG_Abandoned Kingdom Assets/Samples, Guides and Screenshots/orientation_bg.png using Guid(c036ace63a17902439c23630949095a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9459c153d049fe39649b265dff86ca') in 0.036233 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Background/Background/BG_Abandoned Kingdom Assets/Samples, Guides and Screenshots/orientation_rocks.png
+  artifactKey: Guid(c12b946898a365b46b5dcb0a1e927b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Background/Background/BG_Abandoned Kingdom Assets/Samples, Guides and Screenshots/orientation_rocks.png using Guid(c12b946898a365b46b5dcb0a1e927b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225371660e2c45be7866328c4db4ce07') in 0.035152 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Background/Background/BG_Abandoned Kingdom Assets/Samples, Guides and Screenshots/obstacle sample.png
+  artifactKey: Guid(5a3d96041b3b94645a2bd38e04723a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Background/Background/BG_Abandoned Kingdom Assets/Samples, Guides and Screenshots/obstacle sample.png using Guid(5a3d96041b3b94645a2bd38e04723a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f92d872593a276fa15c502354e2d685e') in 0.085213 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.997921 seconds.
+  path: Assets/Sprites/Background/Background/BG_Caves Assets/Caves.png
+  artifactKey: Guid(581a4a97f4dae9c4daa192afd0467cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Background/Background/BG_Caves Assets/Caves.png using Guid(581a4a97f4dae9c4daa192afd0467cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f7a9711d454171924c8e3226284ba9') in 0.060106 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Background/Background/BG_Caves Assets/stalactites-and-stalagmites.png
+  artifactKey: Guid(4df0614b1eaf0e2468ad4362f6e8b945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Background/Background/BG_Caves Assets/stalactites-and-stalagmites.png using Guid(4df0614b1eaf0e2468ad4362f6e8b945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0c1620103fab6c9dd0e06dfe146231') in 0.028887 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Background/Background/BG_Caves Assets/stalactites-and-stalagmites1.png
+  artifactKey: Guid(08e099714b91b8447ad21d97f2312677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Background/Background/BG_Caves Assets/stalactites-and-stalagmites1.png using Guid(08e099714b91b8447ad21d97f2312677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8363af13360a7952b5a74a62f8124fc') in 0.029390 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.302350 seconds.
+  path: Assets/Sprites/Background/Background/BG_Goblin Burroughs Assets/Goblin Burroughs Horizontal.png
+  artifactKey: Guid(23cca0e7f976c0049ab415f15a3ece2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Background/Background/BG_Goblin Burroughs Assets/Goblin Burroughs Horizontal.png using Guid(23cca0e7f976c0049ab415f15a3ece2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19693b55ea091a99e6411fe7607ef133') in 0.034623 seconds 
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

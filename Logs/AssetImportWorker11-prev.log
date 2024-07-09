@@ -1,0 +1,455 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.35f1 (157b46ce122a) revision 1407814'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32716 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.35f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker11
+-projectPath
+C:/Users/Shinobu/Downloads/Compressed/Mega-Cat-Dev-Screening/Mega-Cat-Dev-Screening
+-logFile
+Logs/AssetImportWorker11.log
+-srvPort
+55947
+Successfully changed project path to: C:/Users/Shinobu/Downloads/Compressed/Mega-Cat-Dev-Screening/Mega-Cat-Dev-Screening
+C:/Users/Shinobu/Downloads/Compressed/Mega-Cat-Dev-Screening/Mega-Cat-Dev-Screening
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25300] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 3462491863 [EditorId] 3462491863 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-H8SGABQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [25300] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 3462491863 [EditorId] 3462491863 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-H8SGABQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 91.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.35f1 (157b46ce122a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.35f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Shinobu/Downloads/Compressed/Mega-Cat-Dev-Screening/Mega-Cat-Dev-Screening/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Vendor:   NVIDIA
+    VRAM:     5966 MB
+    Driver:   31.0.15.5212
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.35f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.35f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.35f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.35f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007879 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 92.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.833 seconds
+Domain Reload Profiling:
+	ReloadAssembly (834ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (569ms)
+			LoadAssemblies (126ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (135ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (344ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (92ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008900 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 98.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.064 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2065ms)
+		BeginReloadAssembly (178ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1735ms)
+			LoadAssemblies (143ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (318ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (1159ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (150ms)
+				ProcessInitializeOnLoadAttributes (766ms)
+				ProcessInitializeOnLoadMethodAttributes (125ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4592 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (0.7 MB). Loaded Objects now: 5049.
+Memory consumption went from 203.2 MB to 202.5 MB.
+Total: 4.461700 ms (FindLiveObjects: 0.408300 ms CreateObjectMapping: 0.133200 ms MarkObjects: 3.552300 ms  DeleteObjects: 0.366900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 173608.396128 seconds.
+  path: Assets/Sprites/Player Character/Miser Sprite Sheets _ Gif/cannon_northeast_16_GrafX2-copy.gif
+  artifactKey: Guid(a9eea61a6c899d845898bac2f5998bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Player Character/Miser Sprite Sheets _ Gif/cannon_northeast_16_GrafX2-copy.gif using Guid(a9eea61a6c899d845898bac2f5998bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c1acef55774ff993e18f12d207d874') in 0.246589 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sprites/Player Character/Miser Sprite Sheets _ Gif/Dorven-Characters-TheMiser-Animation.gif
+  artifactKey: Guid(6ada481758dcca1429df193af828a7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Player Character/Miser Sprite Sheets _ Gif/Dorven-Characters-TheMiser-Animation.gif using Guid(6ada481758dcca1429df193af828a7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22efcfc7fe03f832964689e52188aec') in 0.040498 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sprites/Player Character/Miser Sprite Sheets _ Gif/Miser_cannon_southwest.png
+  artifactKey: Guid(2073cb2ae4699954abd2b3dafe29481e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Player Character/Miser Sprite Sheets _ Gif/Miser_cannon_southwest.png using Guid(2073cb2ae4699954abd2b3dafe29481e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '939fb1e971a105e505fd71f0e466f544') in 0.032724 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Player Character/Miser Sprite Sheets _ Gif/Miser_cannon_northwest.png
+  artifactKey: Guid(a0c213e542ed8b742843a5235a0815b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Player Character/Miser Sprite Sheets _ Gif/Miser_cannon_northwest.png using Guid(a0c213e542ed8b742843a5235a0815b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de0649e0e5ca25a369cc68b7c0e2c9f') in 0.030957 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Player Character/Miser Sprite Sheets _ Gif/Dorven-Characters-TheMiser-Animation-2.gif
+  artifactKey: Guid(b27c8fe438595ca4d8073a187965d4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Player Character/Miser Sprite Sheets _ Gif/Dorven-Characters-TheMiser-Animation-2.gif using Guid(b27c8fe438595ca4d8073a187965d4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84be4fc0a41d301de6f85b50b274ccd') in 0.026285 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Player Character/Miser Sprite Sheets _ Gif/Dorven-Miser-Aim.gif
+  artifactKey: Guid(b5a5e6e1cd0c7b044bd5f5f8cc98a814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Player Character/Miser Sprite Sheets _ Gif/Dorven-Miser-Aim.gif using Guid(b5a5e6e1cd0c7b044bd5f5f8cc98a814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f4af3d0edd999b2026908a3d23cefe') in 0.028663 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Player Character/Miser Sprite Sheets _ Gif/Miser_machine_pieces_strip.png
+  artifactKey: Guid(025b3e15fc7c5694f9d6aff5b985fb29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Player Character/Miser Sprite Sheets _ Gif/Miser_machine_pieces_strip.png using Guid(025b3e15fc7c5694f9d6aff5b985fb29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b913f032c8133b871e7456836a29529a') in 0.030807 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 62.022619 seconds.
+  path: Assets/Sprites/Player Character/Miser Sprite Sheets _ Gif/Dorven-Miser-SS.png
+  artifactKey: Guid(75c80132f0315f9458608cba595e4de9) Importer(-1,00000000000000000000000000000000)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Player Character/Miser Sprite Sheets _ Gif/Dorven-Miser-SS.png using Guid(75c80132f0315f9458608cba595e4de9) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'b35fd283ca163bb9f890a760bb2a34e0') in 0.056137 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.073038 seconds.
+  path: Assets/Sprites/Player Character/Miser Sprite Sheets _ Gif/Dorven-Miser-SS.png
+  artifactKey: Guid(75c80132f0315f9458608cba595e4de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Player Character/Miser Sprite Sheets _ Gif/Dorven-Miser-SS.png using Guid(75c80132f0315f9458608cba595e4de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba62457fa53cf6541af51522cbb5b7a') in 0.028080 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 25.739565 seconds.
+  path: Assets/Sprites/Player Character/Miser Sprite Sheets _ Gif/Dorven-Miser-SS.png
+  artifactKey: Guid(75c80132f0315f9458608cba595e4de9) Importer(-1,00000000000000000000000000000000)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Player Character/Miser Sprite Sheets _ Gif/Dorven-Miser-SS.png using Guid(75c80132f0315f9458608cba595e4de9) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '4a3dd767b56dd1316a7d7e1a2ee19a11') in 0.048520 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.060431 seconds.
+  path: Assets/Sprites/Player Character/Miser Sprite Sheets _ Gif/Dorven-Miser-SS.png
+  artifactKey: Guid(75c80132f0315f9458608cba595e4de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Player Character/Miser Sprite Sheets _ Gif/Dorven-Miser-SS.png using Guid(75c80132f0315f9458608cba595e4de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b37a1756dc603fb0cc97b6442889b81') in 0.074652 seconds 
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 176.073931 seconds.
+  path: Assets/Sprites/Player Character/Player Character/cannon_northeast_16_GrafX2.png
+  artifactKey: Guid(ce6ea4a2b27274740ab6d1741c1da1ab) Importer(-1,00000000000000000000000000000000)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Player Character/Player Character/cannon_northeast_16_GrafX2.png using Guid(ce6ea4a2b27274740ab6d1741c1da1ab) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'd0f9424f00ad11bb40e43bffbd71c32e') in 0.045163 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.075041 seconds.
+  path: Assets/Sprites/Player Character/Player Character/cannon_northeast_16_GrafX2.png
+  artifactKey: Guid(ce6ea4a2b27274740ab6d1741c1da1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Player Character/Player Character/cannon_northeast_16_GrafX2.png using Guid(ce6ea4a2b27274740ab6d1741c1da1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8071ee368fb3a500f1bb87288581815') in 0.068129 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007969 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.925 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1926ms)
+		BeginReloadAssembly (200ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1587ms)
+			LoadAssemblies (144ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (336ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (991ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (729ms)
+				ProcessInitializeOnLoadMethodAttributes (117ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4446 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (0.7 MB). Loaded Objects now: 5088.
+Memory consumption went from 196.3 MB to 195.6 MB.
+Total: 4.794700 ms (FindLiveObjects: 0.479100 ms CreateObjectMapping: 0.136700 ms MarkObjects: 3.784700 ms  DeleteObjects: 0.392900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008886 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.882 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1882ms)
+		BeginReloadAssembly (196ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1550ms)
+			LoadAssemblies (141ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (316ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (984ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (721ms)
+				ProcessInitializeOnLoadMethodAttributes (121ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4446 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (0.7 MB). Loaded Objects now: 5091.
+Memory consumption went from 196.3 MB to 195.7 MB.
+Total: 4.255600 ms (FindLiveObjects: 0.416100 ms CreateObjectMapping: 0.131300 ms MarkObjects: 3.364600 ms  DeleteObjects: 0.342900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 225.681049 seconds.
+  path: Assets/Sprites/Gems/Gems
+  artifactKey: Guid(b999b464a4724a04ca321f38add453c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Gems/Gems using Guid(b999b464a4724a04ca321f38add453c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f431e8d93d41b7b1225cc0f741db503d') in 0.029855 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.035634 seconds.
+  path: Assets/Sprites/Gems/Gems/basetargets_6colors_256_GrafX2.png
+  artifactKey: Guid(ff6e14a38838a094f9a769c1f81e6cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Gems/Gems/basetargets_6colors_256_GrafX2.png using Guid(ff6e14a38838a094f9a769c1f81e6cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d47ad18278e19a8f091ce192d9602ed') in 0.082033 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Gems/Gems/metalsheen_6colors_256_GrafX2.png
+  artifactKey: Guid(0e761ef63c524144982dfb178fe0156a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Gems/Gems/metalsheen_6colors_256_GrafX2.png using Guid(0e761ef63c524144982dfb178fe0156a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04a00670d8761808978280de1a42732') in 0.033748 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Gems/Gems/Palette2.png
+  artifactKey: Guid(16a30cd8da0c2744d91c73ade007697a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Gems/Gems/Palette2.png using Guid(16a30cd8da0c2744d91c73ade007697a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b14aaa7683d019c2f5808e7770f65d9') in 0.032250 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/Gems/Gems/earthsheen_6colors_256_GrafX2.png
+  artifactKey: Guid(f81ecf9156738f248944b77f819991c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Gems/Gems/earthsheen_6colors_256_GrafX2.png using Guid(f81ecf9156738f248944b77f819991c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7843015048efe51b6ef9aa860a1ff4') in 0.028533 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Gems/Gems/Palette3 test.png
+  artifactKey: Guid(25c5122f155bdce419bf1869b3918dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Gems/Gems/Palette3 test.png using Guid(25c5122f155bdce419bf1869b3918dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce1b370466550ace9e2f6d45a4b9426e') in 0.068635 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Gems/Gems/Palette4 test.png
+  artifactKey: Guid(6a64079cdd19974499e3f3775071694a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Gems/Gems/Palette4 test.png using Guid(6a64079cdd19974499e3f3775071694a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d6fc1de20481bac8de8cd9969f016d') in 0.049305 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Gems/Gems/Palette1.png
+  artifactKey: Guid(945c255d4b442a343a52cba5d437dd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Gems/Gems/Palette1.png using Guid(945c255d4b442a343a52cba5d437dd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d03c65cd4227bcbb29bd356af06f3c5') in 0.028781 seconds 
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
